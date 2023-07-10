@@ -291,8 +291,8 @@ function Home() {
           color: '#333',
         }}
           onChange={handleChange} >
-           <option value="latest">Latest Post</option>
-           <option value="trending">Trending</option>
+           <option value="latest">Trending</option>
+           <option value="trending">Latest Post</option>
         </select>
         </div>
         {
