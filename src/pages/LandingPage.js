@@ -150,7 +150,7 @@ function LandingPage() {
         ) : (
           <div className="signin__container">
              <h1>Tweetgram</h1>
-            <input type="text" placeholder="Enter your Email" value={signinDetails.email} onChange={(e) => setSigninDetails(prevState => ({
+            <input type="text" placeholder="Enter your username" value={signinDetails.email} onChange={(e) => setSigninDetails(prevState => ({
               ...prevState,
               username:e.target.value
             }))} />
