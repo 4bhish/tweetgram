@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+nav {
+  background: linear-gradient(to right, #262626, #464646);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 60px; 
+  display: flex; 
+  justify-content: flex-end;
+  align-items: center; 
+}
+nav > li{
+  list-style: none;
+}
+.link {
+  margin-right: 20px;
+}
+
+.link a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: color 0.3s ease;
+}
+
+.link a:hover {
+  color: #e1e1e1;
+}
+
+
+@media (max-width: 768px) {
+  .link {
+    display: block;
+    margin-bottom: 10px;
+  }
+}

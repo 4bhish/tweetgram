@@ -1,0 +1,48 @@
+.user-search {
+    position: relative;
+  }
+  
+  .user-search > input{
+    width: 200px;
+    height: 40px;
+    text-indent: 10px;
+    font-size: 16px;
+
+  }
+  .user-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  .user-link {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .avatar--pfp {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  h3 {
+    margin: 0;
+  }
+  

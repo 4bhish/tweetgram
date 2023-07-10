@@ -1,0 +1,65 @@
+.home__users {
+  margin-top: 20px;
+}
+
+.users__list {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user a {
+  text-decoration: none;
+  color: #333;
+}
+
+.user a:hover {
+  text-decoration: underline;
+}
+
+.user p {
+  margin-bottom: 0;
+}
+
+.user .avatar {
+  margin-right: 10px;
+}
+
+.user .user-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+.user .user-details .name {
+  margin-bottom: 5px;
+}
+
+.user .user-details .username {
+  font-size: 10px;
+  margin-top: 2px;
+}
+
+.user .btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.user .btn:hover {
+  background-color: lightgrey;
+}
+
+.user .btn:focus {
+  outline: none;
+}

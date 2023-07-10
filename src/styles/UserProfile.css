@@ -1,0 +1,90 @@
+/* styles.css */
+.user__profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f2f5;
+  }
+  
+  .banner {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .banner__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile__info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    margin-top: -50%;
+  }
+  
+  .profile__picture {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .username {
+    margin-bottom: 10px;
+  }
+  
+  .username h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .follow__button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color:linear-gradient(to right, #262626, #464646);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .bio {
+    margin-bottom: 20px;
+  }
+  
+  .bio p {
+    margin: 0;
+  }
+  
+  .bio__link {
+    color: #3b5998;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  
+  .bio__link:hover {
+    text-decoration: underline;
+  }
+  
+  .follow__data {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .follow__data p {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+  

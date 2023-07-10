@@ -1,0 +1,72 @@
+
+.post {
+  border: 1px solid #ddd;
+  padding: 10px;
+  position: relative;
+  margin-top: 10px;
+  
+}
+
+.edit-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #999;
+}
+
+
+.post-header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.user-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-info h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.user-info span {
+  font-size: 12px;
+  color: #999;
+}
+
+.post-content{
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 0.1px solid lightgray;
+}
+.post-content h2 {
+  margin: 10px 0;
+  
+ 
+}
+
+.post-footer {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  font-size: 12px;
+  margin-top: 10px;
+  
+}
+
+.post-footer > span{
+  color: grey;
+}
+.like__container{
+  display: flex;
+  align-items: center;
+}
+
+.like__container  > p{
+  margin-left: 10px;
+}

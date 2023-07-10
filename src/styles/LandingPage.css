@@ -1,0 +1,94 @@
+.landingpage {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .img__container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+  }
+  
+  .img__container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .login__container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+  }
+  
+  .form__container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup__container,
+  .signin__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  span {
+    color: blue;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    .landingpage {
+      flex-direction: column;
+    }
+  
+    .img__container {
+      height: 50vh;
+    }
+  
+    .login__container {
+      height: 50vh;
+    }
+  
+    .form__container {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  
