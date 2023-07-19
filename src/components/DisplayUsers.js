@@ -53,7 +53,7 @@ function DisplayUsers() {
       
       
 
-      console.log(followedUsers,'all')
+      
       
   return (
      <div style={{padding:"10px"}} className="home__users">

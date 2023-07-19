@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import LoginOutlinedIcon from '@mui/icons-material/LoginOutlined';
 import { userDetailProvider } from '../contexts/UserDetailContext';
-import {  Navigate } from 'react-router-dom';
+import {  Link, Navigate } from 'react-router-dom';
 import { LoginContext } from '../LoginProvider';
 
 function LogoutBtn() {
@@ -24,6 +24,7 @@ function LogoutBtn() {
 
   return (
     <div onClick={handleLogOut} style={{display:"flex",alignItems:"center",cursor:"pointer"}}>
+      <Link to='/' >
         <LoginOutlinedIcon  />
         <p>@{currUser.username}</p>
         
@@ -45,6 +46,7 @@ function LogoutBtn() {
         </div>
       )}
       {!loginStatus && <Navigate to="/"  />}
+      </Link>
     </div>
   )
 }

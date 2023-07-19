@@ -43,6 +43,7 @@ function App() {
         
         <nav style={{display:"flex",justifyContent:"space-between",alignItems:'center'}} className="sticky">
           <h1><Link style={{textDecoration:'none',color:'inherit'}} to={'/'}>Tweetgram</Link></h1>
+          
           <UserSearch />
         </nav>
 
